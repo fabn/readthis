@@ -38,7 +38,7 @@ Benchmark.ips do |x|
   x.report('a') { compose_a(Marshal, true) }
   x.report('b') { compose_b(Marshal, true) }
   x.report('c') { compose_c(Marshal, true) }
-  x.report('d') { compose_c(Marshal, true) }
+  x.report('d') { compose_d(Marshal, true) }
 
   x.compare!
 end
